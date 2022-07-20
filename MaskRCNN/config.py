@@ -155,7 +155,7 @@ _C.PREPROC.PADDING_SHAPES = [(800, 1000), (800, 1200), (800, 1350)]    # only ad
 _C.RPN.ANCHOR_STRIDE = 16
 _C.RPN.ANCHOR_SIZES = (32, 64, 128, 256, 512)   # sqrtarea of the anchor box
 _C.RPN.ANCHOR_RATIOS = (0.5, 1., 2.)
-_C.RPN.POSITIVE_ANCHOR_THRESH = 0.7
+_C.RPN.POSITIVE_ANCHOR_THRESH = 0.5
 _C.RPN.NEGATIVE_ANCHOR_THRESH = 0.3
 
 # rpn training -------------------------
