@@ -154,7 +154,7 @@ _C.PREPROC.PADDING_SHAPES = [(800, 1000), (800, 1200), (800, 1350)]    # only ad
 # anchors -------------------------
 _C.RPN.ANCHOR_STRIDE = 16
 _C.RPN.ANCHOR_SIZES =  (32, 64, 128, 256, 512) #Kmeans optimization #(32, 64, 128, 256, 512)   # sqrtarea of the anchor box
-_C.RPN.ANCHOR_RATIOS = (0.25, 0.5, 1., 2., 3.2, 4., 6.8) #(0.5, 1., 2.)
+_C.RPN.ANCHOR_RATIOS = (0.5, 1., 2.) #(0.25, 0.5, 1., 2., 3.2, 4., 6.8)
 _C.RPN.POSITIVE_ANCHOR_THRESH = 0.4 #0.5
 _C.RPN.NEGATIVE_ANCHOR_THRESH = 0.3
 
