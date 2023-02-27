@@ -93,3 +93,4 @@ target/
 *.dat
 
 .idea/
+.DS_Store
